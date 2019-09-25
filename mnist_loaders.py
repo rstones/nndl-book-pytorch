@@ -15,7 +15,7 @@ class TargetToOutputArray(object):
 
     def __call__(self, target):
         new_target = torch.zeros(10)
-        new_target[target] = 1.
+        new_target[target] = 1
         return new_target
  
 

@@ -1,0 +1,6 @@
+{
+"layers": [784, 30, 10],
+"batchSize": 10,
+"numEpochs": 10,
+"learningRate": 0.5
+}
